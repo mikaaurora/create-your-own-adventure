@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: black;
+  color: #ffffff;
+}
+
+.start-image {
+  margin-top: 50px;
+  border-radius: 70px;
+  height: 300px;
+}
+
+img {
+  text-align: center;
+  width: 1200px;
+  height: 600px;
+  border-radius: 70px;
+  margin-top: 50px;
+}
