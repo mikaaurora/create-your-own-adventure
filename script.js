@@ -203,9 +203,10 @@ const expensiveFood = () => {
       hidePages()
       returnHome()
     } else if (tooExpensive.toLowerCase() === 'crossroads') {
-      alert("That's the spirit! We'll find a new path.")
+      alert('You chose CROSSROADS!')
+      alert(`That's the spirit, ${playerName}! We'll find a new path.`)
       hidePages()
-      document.querySelector('.direction-page').display.style = 'initial'
+      document.querySelector('.direction-page').style.display = 'initial'
     } else {
       alert('Please make a choice.')
       expensiveFood()
